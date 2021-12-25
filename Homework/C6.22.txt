@@ -1,0 +1,22 @@
+------------C6.22------------
+
+non recursive way of evaluation of postfix expreesion  
+
+1.read input expression(postfix)
+2.initialize the empty stack (stack<integer> stack=new stack<integer>();)
+3.for i in expression //each token
+    if(i is an operand)
+        stack.push(i);
+    else{
+        op1=stack.pop();
+        op2=stack.pop();
+        value=op2 (i) op1 // result of applying operator
+        stack.push(value);
+    }
+4.if(stack.isEmpty())
+    print ("invalid postfix expression")
+5.result=stack.pop();
+    if(stack.isEmpty())
+        print(result);
+    else
+        print("invalid postfix expression");

@@ -1,0 +1,35 @@
+Operation      Return Value      Stack Contents
+
+S.push(5)      -                 [5]    
+S.push(3)      -                 [5,3]
+S.pop()        3                 [5]
+S.push(2)      -                 [5,2]
+S.push(8)      -                 [5,2,8]
+S.pop()        8                 [5,2]
+S.pop()        2                 [5]
+S.push(9)      -                 [5,9]
+S.push(1)      -                 [5,9,1]
+S.pop()        1                 [5,9]
+S.push(7)      -                 [5,9,7]
+S.push(6)      -                 [5,9,7,6]
+S.pop()        6                 [5,9,7]
+S.pop()        7                 [5,9]
+S.push(4)      -                 [5,9,4]
+S.pop()        4                 [5,9]
+S.pop()        9                 [5]
+
+we have 9 pushes and 8 pops, so we have one value left in the stack as expected
+
+
+
+
+
+
+
+
+
+
+
+
+
+

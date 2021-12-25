@@ -1,0 +1,35 @@
+Operation        Return Value      Queue Contents
+
+Q.enqueue(5)     -                 [5]    
+Q.enqueue(3)     -                 [5,3]
+Q.dequeue()      5                 [3]
+Q.enqueue(2)     -                 [3,2]
+Q.enqueue(8)     -                 [3,2,8]
+Q.dequeue()      3                 [2,8]
+Q.dequeue()      2                 [8]
+Q.enqueue(9)     -                 [8,9]
+Q.enqueue(1)     -                 [8,9,1]
+Q.dequeue()      8                 [9,1]
+Q.enqueue(7)     -                 [9,1,7]
+Q.enqueue(6)     -                 [9,1,7,6]
+Q.dequeue()      9                 [1,7,6]
+Q.dequeue()      1                 [7,6]
+Q.enqueue(4)     -                 [7,6,4]
+Q.dequeue()      7                 [6,4]
+Q.dequeue()      6                 [4]
+
+we have 9 enqueue and 8 dequeue, so we have one value left in the Queue as expected
+
+
+
+
+
+
+
+
+
+
+
+
+
+

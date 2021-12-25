@@ -1,0 +1,7 @@
+5 This product is good.
+5 This product is well made.
+4 Product functions well.
+3 This is a mediocre product.
+2 Product broke. I am dissatisfied.
+1 This product is junk.
+1 This product does not function as advertised.
